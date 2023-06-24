@@ -1,0 +1,51 @@
+header {
+  background-image: url("./../../img/headerImg.jpg");
+  height: 85vh;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+
+.header__logo-box {
+  position: absolute;
+  top: 1rem;
+  left: 30rem;
+}
+
+.header__logo {
+  height: 5rem;
+  width: 5rem;
+}
+
+.header__text-box {
+  position: absolute;
+  top: 25%;
+  left: 38%;
+  text-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.heading-primary {
+  text-transform: uppercase;
+  margin-bottom: 6rem;
+  backface-visibility: hidden;
+  font-family: "Oswald", sans-serif;
+}
+
+.heading-primary--main {
+  display: block;
+  color: #303030;
+  font-size: 9rem;
+  font-weight: 400;
+}
+
+.heading-primary--sub {
+  display: block;
+  background-image: linear-gradient(180deg, #345069, black);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 9rem;
+  font-weight: 400;
+  letter-spacing: 0.25rem;
+}

@@ -1,0 +1,70 @@
+.navigation__nav {
+  position: relative;
+  top: 1rem;
+  float: right;
+  padding-right: 15rem;
+}
+
+.navigation__list {
+  list-style-type: none;
+}
+
+.navigation-block {
+  height: 13vh;
+  background-color: white;
+}
+
+.navigation__h1 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  display: inline;
+}
+
+.navigation__h1--main {
+  color: #303030;
+}
+
+.navigation__h1--sub {
+  color: #345069;
+  letter-spacing: 0.08rem;
+}
+
+.navigation__list {
+  font-family: "Oswald", sans-serif;
+  font-style: italic;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.navigation__item {
+  color: white;
+  text-decoration: underline;
+  display: inline;
+  padding: 5rem;
+}
+.navigation__item2 {
+  color: #345069;
+  text-decoration: underline;
+  display: inline;
+  padding: 5rem;
+}
+
+.navigation__link {
+  color: white;
+}
+
+.navigation__link2 {
+  color: #345069;
+}
+
+.navigation__logo-box2 {
+  position: absolute;
+  left: 4rem;
+  display: flex;
+  padding: 1rem;
+  left: 30rem;
+}
+
+.navigation__logo2 {
+  width: 5rem;
+  height: 5rem;
+}

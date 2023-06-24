@@ -1,0 +1,27 @@
+*,
+*::after,
+*::before {
+  margin: 0.5px;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 10px;
+}
+
+@media screen and (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media screen and (min-width: 56.26em) and (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+body {
+  box-sizing: border-box;
+}

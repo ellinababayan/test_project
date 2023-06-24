@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- 
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    /> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./src/style/components/header.css" />
+    <link rel="stylesheet" href="./src/style/components/navigation.css" />
+    <link rel="stylesheet" href="./src/style/components/history.css" />
+    <link rel="stylesheet" href="./src/style/components/button/buton.css" />
+    <link rel="stylesheet" href="./src/style/components/climb.css" />
+    <link rel="stylesheet" href="./src/style/components/footer.css" />
+    <script src="./src/style/components/button/button.js"></script>
+
+    <!-- <script src="./src/style/components/button/button.js"></script> -->
+
+    <link
+      rel="shortcut icon"
+      type="image/jpg"
+      href="https://media.istockphoto.com/id/1169925303/vector/beautiful-mountain-silhouette-in-blue-daylight-sky-circle-on-white-background-logo.jpg?s=612x612&w=0&k=20&c=h9Cr8O7Ry5Vjwk1b2wG7f5YOrWz5uUMK4MK0IlAvJkk="
+    />
+    <title>Los Angeles Mountains</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="navigation">
+        <div class="header__logo-box">
+          <img
+            class="header__logo"
+            src="https://media.istockphoto.com/id/1169925303/vector/beautiful-mountain-silhouette-in-blue-daylight-sky-circle-on-white-background-logo.jpg?s=612x612&w=0&k=20&c=h9Cr8O7Ry5Vjwk1b2wG7f5YOrWz5uUMK4MK0IlAvJkk="
+          />
+        </div>
+        <nav class="navigation__nav" id="navigation__nav">
+          <ul class="navigation__list ms-auto">
+            <li class="navigation__item">
+              <a href="#section-history" class="navigation__link"
+                ><span>01. &nbsp;</span>History</a
+              >
+            </li>
+            <li class="navigation__item">
+              <a href="#section-climb" class="navigation__link"
+                ><span>02. &nbsp;</span>Team</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--main">LosAngeles</span>
+          <span class="heading-primary--sub">Mountains</span>
+        </h1>
+      </div>
+    </header>
+    <main>
+      <div class="navigation-block">
+        <div class="navigation__logo-box2">
+          <img
+            class="navigation__logo2"
+            src="https://media.istockphoto.com/id/1169925303/vector/beautiful-mountain-silhouette-in-blue-daylight-sky-circle-on-white-background-logo.jpg?s=612x612&w=0&k=20&c=h9Cr8O7Ry5Vjwk1b2wG7f5YOrWz5uUMK4MK0IlAvJkk="
+          />
+          <div class="navigation__h1">
+            <h1 class="navigation__h1--main">LosAngeles</h1>
+            <h1 class="navigation__h1--sub">Mountains</h1>
+          </div>
+        </div>
+        <nav class="navigation__nav" id="navigation__nav">
+          <ul class="navigation__list">
+            <li class="navigation__item2">
+              <a href="#section-history" class="navigation__link2"
+                ><span>01. &nbsp;</span>History</a
+              >
+            </li>
+            <li class="navigation__item2">
+              <a href="#section-climb" class="navigation__link2"
+                ><span>02. &nbsp;</span>Team</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="section-history" id="section-history">
+        <h1 class="history--number">01.</h1>
+        <h1 class="history--header">History</h1>
+        <p class="history--description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+        <div class="history--gallery-back">
+          <div class="history--gallery">
+            <img
+              class="history--img history--img_selected"
+              src="./src/img/person.jfif"
+            />
+            <img class="history--img" src="./src/img/mountain.jpg" />
+            <img class="history--img" src="./src/img/person.jfif" />
+            <img class="history--img" src="./src/img/mountain.jpg" />
+          </div>
+          <div class="carousel">
+            <div class="carousel__nav">
+              <span class="carousel__button carousel__button--selected"></span>
+              <span class="carousel__button"></span>
+              <span class="carousel__button"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-climb" id="section-climb">
+        <div class="climb--head">
+          <h1 class="climb--number">02.</h1>
+          <h1 class="climb--header">Climb</h1>
+          <p class="climb--description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud.
+          </p>
+        </div>
+        <div class="climb--mountains-div">
+          <div class="climb">
+            <div class="climb-mountains">
+              <a class="climb--mountain-highlighted">Mountain 1</a>
+              <a class="climb--mountain-not">Mountain 2</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="climb--mountain">
+          <div class="climb--schedule">
+            <h2 class="climb--schedule_header">Schedule</h2>
+            <div class="climb--schedule_details">
+              <h3 class="climb-time">
+                25 Nov 2016 &nbsp; &nbsp; Lorem ipsum dolor
+              </h3>
+              <h3 class="climb-time">
+                28 Nov 2016 &nbsp; &nbsp; Lorem ipsum dolor
+              </h3>
+              <h3 class="climb-time">
+                18 Dec 2016 &nbsp; &nbsp; Lorem ipsum dolor
+              </h3>
+              <h3 class="climb-time">
+                07 Jan 2017 &nbsp; &nbsp; Lorem ipsum dolor
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__logo-box">
+        <img
+          class="footer__logo"
+          src="https://media.istockphoto.com/id/1169925303/vector/beautiful-mountain-silhouette-in-blue-daylight-sky-circle-on-white-background-logo.jpg?s=612x612&w=0&k=20&c=h9Cr8O7Ry5Vjwk1b2wG7f5YOrWz5uUMK4MK0IlAvJkk="
+        />
+        <div class="footer__text-box">
+          <h1 class="footer-h1">
+            <span class="footer-primary--main">LosAngeles</span>
+            <span class="footer-primary--sub">Mountains</span>
+          </h1>
+        </div>
+      </div>
+
+      <div class="footer__copyright">
+        <p class="footer__copyright--p">
+          Built by
+          <a
+            class="footer__link"
+            href="https://www.linkedin.com/in/ellina-babaian-302645267/"
+            >Ellina Babaian</a
+          >
+          Copyright &copy; by Ellina Babaian
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

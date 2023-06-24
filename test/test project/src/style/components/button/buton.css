@@ -1,0 +1,25 @@
+.carousel {
+  position: relative;
+}
+
+.carousel__nav {
+  width: 100%;
+  padding: 2px 0;
+  position: absolute;
+  bottom: -14rem;
+  left: 4%;
+  text-align: center;
+}
+
+.carousel__button {
+  width: 7px;
+  height: 7px;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  z-index: 5;
+}
+
+.carousel__button--selected {
+  background-color: rgba(255, 255, 255, 1);
+}

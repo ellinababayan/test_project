@@ -1,0 +1,107 @@
+.section-climb {
+  height: 95vh;
+  position: relative;
+}
+
+.climb--mountains-div {
+  background-color: #345069;
+  height: 5rem;
+  width: 100%;
+  position: absolute;
+  top: 21%;
+  z-index: 2;
+}
+
+.climb--mountains {
+  position: relative;
+}
+
+.climb {
+  position: absolute;
+  left: 25%;
+  top: 19%;
+}
+
+.climb--mountain-not {
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #a19c9c;
+  display: inline;
+  padding: 1rem;
+}
+
+.climb--mountain-highlighted {
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #345069;
+  text-decoration: underline;
+  background-color: rgba(161, 156, 156, 0.7);
+  display: inline;
+  padding: 1rem;
+}
+
+.climb--mountain {
+  background-image: url("./../../img/climbImg.jpg");
+  height: 75vh;
+  width: 100%;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+}
+
+.climb--schedule {
+  background-color: rgba(255, 255, 255, 0.567);
+  width: 35rem;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+
+.climb--schedule_header {
+  font-family: "Oswald", sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #345069;
+  padding: 1rem 6rem;
+}
+
+.climb--schedule_details {
+  padding: 1rem 5rem;
+  font-size: 1.2rem;
+}
+
+.climb-time {
+  padding: 1rem;
+}
+
+.climb--number {
+  position: absolute;
+  font-family: "Oswald", sans-serif;
+  font-size: 12rem;
+  text-transform: uppercase;
+  color: #303030;
+  opacity: 0.3;
+  top: -3%;
+  left: 27%;
+}
+
+.climb--header {
+  position: absolute;
+  font-family: "Oswald", sans-serif;
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: #345069;
+  top: 5%;
+  left: 35.5%;
+}
+
+.climb--description {
+  font-size: 2rem;
+  position: absolute;
+  top: 5%;
+  left: 48%;
+  margin-right: 15rem;
+  padding-right: 2rem;
+}
